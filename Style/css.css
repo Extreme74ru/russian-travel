@@ -1,0 +1,133 @@
+.body{
+  display: flex;
+  background-color: #E5E5E5;
+}
+.header{border: red 1px solid;
+  position: absolute;
+  width: 1181px;
+  height: 66px;
+  left: 51px;
+  right: 48px;
+  top: 31px;
+}
+.header__logo{border: red 1px solid;
+  position: absolute;
+  width: 176px;
+  height: 52px;
+  left: 48px;
+  top: 28px;
+  background: #FFFFFF;
+}
+.header__lang-link{
+  position: absolute;
+width: 30px;
+height: 28px;
+left: 1155px;
+top: 69px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+text-align: right;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.lead{border: red 1px solid;
+  position: absolute;
+width: 984px;
+height: 1005px;
+left: 148px;
+top: 130px;
+align-items: center;
+}
+.lead__title{border: red 1px solid;
+  position: absolute;
+width: 720px;
+height: 200px;
+left: 108px;
+top: 0px;
+margin: 0;
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.lead__subtitle{border: red 1px solid;
+  position: absolute;
+  width: 640px;
+  height: 72px;
+  left: 172px;
+  top: 238px;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.intro{border: red 1px solid;
+  position: absolute;
+width: 690px;
+height: 429px;
+left: 148px;
+top: 1233px;
+}
+.intro__title{border: red 1px solid;
+  position: absolute;
+  width: 690px;
+  height: 58px;
+  left: 148px;
+  top: 1233px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
+  color: #FFFFFF;
+}
+.intro__text{border: red 1px solid;
+  position: absolute;
+  width: 690px;
+  height: 208px;
+  left: 148px;
+  top: 1331px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+  color: #FFFFFF;
+}
+.intro__list{border: red 1px solid;
+  position: absolute;
+  width: 690px;
+  height: 90px;
+  left: 148px;
+  top: 1572px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  color: #FFFFFF;
+}
