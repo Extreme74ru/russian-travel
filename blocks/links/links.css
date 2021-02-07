@@ -1,0 +1,25 @@
+.links{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  }
+  @media screen and (max-width: 1024px){
+    .links{
+      
+    }
+  }
+  @media screen and (max-width: 768px){
+    .links{
+      
+    }
+  }
+  @media screen and (max-width: 320px){
+    .links{
+    display: grid;
+    grid-template-rows:  repeat(5,minmax(min-content,max-content));
+    grid-template-columns: 100%;
+    gap: 32px;
+    }
