@@ -35,6 +35,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/discreption/discreption.css);
 @import url(../blocks/discreption/__paragraph/place__paragraph.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 @font-face {
   font-family: 'Inter';

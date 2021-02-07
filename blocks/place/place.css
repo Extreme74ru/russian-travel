@@ -34,7 +34,6 @@
       grid-template-columns: calc(320px - 16px*2);
       grid-template-areas: "place__title"
     "place__image"
-    "discreption"
-    "place__paragraph";
+    "discreption";
   }
   }
