@@ -15,6 +15,7 @@
       column-gap: 24px;
       height: auto;
     }
+  }
   @media screen and (max-width: 768px){
     .place{
       width: calc(768px - 24px*2);

@@ -1,7 +1,6 @@
 .place__image{
     margin-top: calc(48px - 26px);
     grid-area: place__image;
-     width: "auto";
      height: 460px;
      width: 460px;
   }
