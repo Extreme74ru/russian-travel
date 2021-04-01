@@ -1,0 +1,42 @@
+.footer{
+    margin-top: 92px;
+    margin-left: 48px;
+    width: 1184px;
+    height: 18px;
+    display: grid;
+    grid-template-rows:  min-content;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 24px;
+  }
+  @media screen and (max-width: 1024px){
+    .footer{
+      width: calc(1024px - 40px*2);
+      margin-left: 40px;
+      margin-bottom: 24px;
+    grid-template-rows:  100%;
+    grid-template-columns: repeat(2,minmax(min-content,max-content));
+    justify-content: space-between;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .footer{
+      width: 720px;
+      height: auto;
+      margin-left: 24px;
+      margin-bottom: 24px;
+    grid-template-rows:  100%;
+    grid-template-columns: repeat(2,minmax(min-content,max-content));
+    justify-content: space-between;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .footer{
+      margin-left: 16px;
+      margin-bottom: 24px;
+    width: 186px;
+    height: auto;
+    grid-template-rows:  repeat(2,minmax(min-content,max-content));
+    grid-template-columns: 100%;
+    row-gap: 48px;
+    }
+  }
