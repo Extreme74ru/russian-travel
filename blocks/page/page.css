@@ -1,20 +1,23 @@
-.page{
-    max-width: 1280px;
-    max-height: min-content;
-    background-color: #2A2C2F;
+.page {
+  max-width: 1280px;
+  max-height: min-content;
+  background-color: #2A2C2F;
 }
-@media screen and (max-width: 1024px){
-    .page{
-      width: 100%;
-    }
+
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 100%;
   }
-  @media screen and (max-width: 768px){
-    .page{
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 100%;
   }
-  @media screen and (max-width: 320px){
-    .page{
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 100%;
   }
+}

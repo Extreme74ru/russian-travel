@@ -1,6 +1,4 @@
-.intro__text{
-    width: 690px;
-    height: 208px;
+.intro__text {
     margin-top: 40px;
     margin-bottom: 33px;
     font-family: "Inter";
@@ -10,21 +8,20 @@
     line-height: 26px;
     /* or 26px */
     color: #FFFFFF;
-  }
-  @media screen and (max-width: 1024px){
-    .intro__text{
-      
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {}
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text {}
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 34px;
     }
-  }
-  @media screen and (max-width: 768px){
-    .intro__text{
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 320px){
-    .intro__text{
-      height: auto;
-      margin-top: 40px;
-      margin-bottom: 34px;
-    }
-  }
+}

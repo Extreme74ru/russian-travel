@@ -1,25 +1,16 @@
-.discreption{
+.discreption {}
 
+@media screen and (max-width: 1024px) {
+    .discreption {}
 }
-@media screen and (max-width: 1024px){
-    .discreption{
-      width: 456px;
+
+@media screen and (max-width: 767px) {
+    .discreption {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-  }
-  @media screen and (max-width: 768px){
-    .discreption{
-      width: auto;
-      height: auto;
-      font-size: 16px;
-      line-height: 26px;
-    }
-  }
-  @media screen and (max-width: 320px){
-    .discreption{
-      
-      margin-top: 7px;
-      font-size: 16px;
-      line-height: 26px;
-      margin-left: 16px;
-    }
-  }
+}
