@@ -4,7 +4,6 @@
     margin-left: 11%;
     margin-right: 11%;
     display: grid;
-    grid-template-columns: ;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
     gap: 80px;
 }

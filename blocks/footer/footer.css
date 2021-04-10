@@ -29,14 +29,16 @@
         grid-template-columns: 100%;
         row-gap: 48px;
     }
-    @media screen and (max-width: 320px) {
-        .footer {
-            margin-left: 16px;
-            margin-bottom: 24px;
-            width: 186px;
-            height: auto;
-            grid-template-rows: repeat(2, minmax(min-content, max-content));
-            grid-template-columns: 100%;
-            row-gap: 48px;
-        }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-left: 16px;
+        margin-bottom: 24px;
+        width: 186px;
+        height: auto;
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        grid-template-columns: 100%;
+        row-gap: 48px;
     }
+}
