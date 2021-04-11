@@ -14,8 +14,9 @@
   .footer__author {}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__author {
+    justify-content: end;
     font-size: 14px;
     line-height: 14px;
   }
