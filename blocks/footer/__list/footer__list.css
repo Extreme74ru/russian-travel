@@ -1,18 +1,19 @@
-.links {
+.footer__list {
     font-family: 'Inter' , 'Arial', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-    .links {}
+    .footer__list {}
 }
 
 @media screen and (max-width: 767px) {
-    .links {
+    .footer__list {
         display: grid;
         grid-template-rows: repeat(5, minmax(min-content, max-content));
         grid-template-columns: 100%;
@@ -21,5 +22,5 @@
 }
 
 @media screen and (max-width: 320px) {
-    .links {}
+    .footer__list {}
 }

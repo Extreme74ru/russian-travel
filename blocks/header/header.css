@@ -1,6 +1,7 @@
 .header {
   margin-top: 28px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-left: 4.6%;
   margin-right: 4.6%;
@@ -20,15 +21,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
     margin-top: 28px;
-    width: calc(100% - 24px*2);
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    width: calc(100% - 16px*2);
+    width: calc(100% - 5%*2);
   }
 }

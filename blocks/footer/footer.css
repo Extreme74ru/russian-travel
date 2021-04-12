@@ -26,6 +26,6 @@
         width: 58%;
         height: auto;
         grid-template-columns: 100%;
-        row-gap: 48px;
+        row-gap: 15%;
     }
 }

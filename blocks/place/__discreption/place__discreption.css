@@ -1,11 +1,7 @@
-.discreption {}
-
-@media screen and (max-width: 1024px) {
-    .discreption {}
-}
+.place__discreption {}
 
 @media screen and (max-width: 767px) {
-    .discreption {
+    .place__discreption {
         width: auto;
         height: auto;
         font-size: 16px;

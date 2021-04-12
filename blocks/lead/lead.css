@@ -1,5 +1,5 @@
 .lead {
-    margin-top: 33px;
+    margin-top: 56px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -14,6 +14,7 @@
         margin-left: 1.6%;
         margin-right: 1.6%;
         width: calc(100% - 1.6%*2);
+        margin-top: 48px;
     }
 }
 
@@ -22,18 +23,5 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        margin-top: 48px;
-        width: 100%;
     }
 }

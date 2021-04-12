@@ -10,18 +10,10 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__author {}
-}
-
 @media screen and (max-width: 767px) {
   .footer__author {
     justify-content: end;
     font-size: 14px;
     line-height: 14px;
   }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__author {}
 }

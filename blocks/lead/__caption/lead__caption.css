@@ -15,18 +15,13 @@
     align-self: baseline;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .lead__caption {
         margin-left: 3%;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .lead__caption {}
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__caption {
-        left: 16px;
+        margin-left: 5%;
     }
 }
