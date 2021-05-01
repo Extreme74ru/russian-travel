@@ -1,7 +1,7 @@
 .place__paragraph {
     margin-top: calc(48px - 26px);
     margin-bottom: 0;
-    font-family: 'Inter' , 'Arial', 'sans-serif';
+    font-family: 'Inter', 'Arial', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -10,15 +10,13 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraph {}
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
         width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 

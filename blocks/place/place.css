@@ -19,7 +19,6 @@
     .place {
         row-gap: 28px;
         column-gap: 25px;
-        grid-template-rows: repeat(5, minmax(min-content, max-content));
         grid-template-columns: 100%;
         grid-template-areas: "place__title" "place__image" "discreption";
     }
