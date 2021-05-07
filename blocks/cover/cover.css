@@ -1,14 +1,11 @@
 .cover {
-    width: calc(100% - 48px*2);
+    width: calc(1280px - 28px*2);
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -29,6 +26,7 @@
 }
 
 .cover:hover::before {
+    width: 100%;
     opacity: 0.8;
 }
 
