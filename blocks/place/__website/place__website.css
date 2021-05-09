@@ -3,14 +3,9 @@
   margin: 0;
   align-self: flex-end;
 }
-
-@media screen and (max-width: 1024px) {
-  .place__website {}
-}
-
 @media screen and (max-width: 767px) {
   .place__website {
-    display: none;
+    margin-left: 5%;
   }
 }
 

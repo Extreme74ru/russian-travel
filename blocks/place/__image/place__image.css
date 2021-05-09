@@ -2,18 +2,11 @@
     margin-top: calc(48px - 26px);
     grid-area: place__image;
     width: 100%;
-    max-width: 460px;
+    max-width: 440px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     .place__image {
-        max-width: 460px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        margin-top: calc(48px - 25px);
         max-width: 100%;
     }
 }

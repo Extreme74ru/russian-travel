@@ -1,5 +1,4 @@
 .header__lang-link {
-  width: 30px;
   margin-left: 18px;
   font-family: 'Inter', 'Arial', 'sans-serif';
   font-style: normal;
@@ -11,17 +10,8 @@
   color: #FFFFFF;
 }
 
-.header__lang-link:hover {
-  text-decoration: underline;
-}
-
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    width: 22px;
     font-size: 18px;
     line-height: 10px;
   }
