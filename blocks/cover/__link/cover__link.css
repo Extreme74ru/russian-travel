@@ -1,9 +1,9 @@
 .cover__link {
-    width: calc(1280px - 48px*2);
+    max-width: calc(1280px - 48px*2);
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 45px;
+    margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -38,6 +38,7 @@
     .cover__link {
         width: 100%;
         min-height: 640px;
+        margin-top: 90px;
     }
 }
 
